@@ -4,7 +4,7 @@ import {Magic} from 'magic-sdk';
 import {useForm} from "react-hook-form";
 
 const m = new Magic('pk_live_AABC93231E65FC6F');
-
+let n = m;
 
 function Login() {
     const {register,handleSubmit}=useForm()
