@@ -17,7 +17,10 @@ function Login() {
         fetch("https://sics-python.herokuapp.com/login", {
             method: 'POST',
             headers: header
-        }).then()
+        }).then(async (resp) => {
+            let response = await resp.json();
+            console.log(response)
+        })
     };
     return (
 
