@@ -3,13 +3,21 @@ import { Helmet } from 'react-helmet';
 import {Magic} from 'magic-sdk';
 import {useForm} from "react-hook-form";
 
-const m = new Magic('pk_live_AABC93231E65FC6F');
-let n = m;
 
 function Login() {
-    const {register,handleSubmit}=useForm()
-    const onSubmit=(data)=> console.log(data)
-
+    const magic = new Magic('pk_live_AABC93231E65FC6F');
+    const {register,handleSubmit}=useForm();
+    const onSubmit= async ({ email })=> {
+        const did_Token = await magic.auth.loginWithMagicLink({ email })
+        console.log(did_Token)
+        let header = {
+    token: `Bearer ${did_Token}`
+ }
+ fetch("https://sics-python.herokuapp.com/login", {
+    method: 'POST',
+     headers: header
+ }).then()
+        };
   return (
 
       <div className="container">
