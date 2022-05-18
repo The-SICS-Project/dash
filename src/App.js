@@ -2,25 +2,15 @@ import Logo from './Logo.svg'
 import {Helmet} from 'react-helmet';
 import {Magic} from 'magic-sdk';
 import {useForm} from "react-hook-form";
-
-
+import {LoginFn} from "./testJs";
+import axios from "axios";
 function Login() {
     const magic = new Magic('pk_live_AABC93231E65FC6F');
     const {register, handleSubmit} = useForm();
     const onSubmit = async ({email}) => {
         const did_Token = await magic.auth.loginWithMagicLink({email})
         console.log(did_Token)
-        let header = {
-            token: `Bearer ${did_Token}`,
-            "Content-type": "application/json; charset=UTF-8"
-        }
-        fetch("https://sics-python.herokuapp.com/login", {
-            method: 'POST',
-            headers: header
-        }).then(async (resp) => {
-            let response = await resp.json();
-            console.log(response)
-        })
+        await LoginFn()
     };
     return (
 
