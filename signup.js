@@ -17,13 +17,14 @@ function Signup() {
         const options = {
             method: 'POST',
             headers: {
-                'Content-Type':'application/json'
+                'Content-Type':'application/json',
+                Origin: "https://sics-fast.herokuapp.com/"
             },
             body:JSON.stringify(data)
 
         };
 
-        fetch('https://sics-fast.herokuapp.com/account/signup', options)
+        fetch('https://cors-anywhere.herokuapp.com/https://sics-fast.herokuapp.com/account/signup', options)
             .then(response => response.json())
             .then(response => console.log(response))
             .catch(err => console.error(err));
@@ -41,16 +42,16 @@ function Signup() {
             <img className="Logo" src={Logo} id={Logo} width="150" height="120"/><br/><br/>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label>SignUp to continue to</label><br/><label> SICS Dashboard</label><br/>
-                <input className="FirstName" type="text" placeholder="FirstName" {...register("FirstName")}
+                <input className="FirstName" type="text" placeholder="FirstName" {...register("first_name")}
                        required/><br></br>
 
-                <input className="LastName" type="text" placeholder="LastName"  {...register("LastName")}
+                <input className="LastName" type="text" placeholder="LastName"  {...register("last_name")}
                        required/><br></br>
 
                 <input className="Email" type="email" placeholder="Email address"  {...register("email")}
                        required/><br></br>
 
-                <input className="CompanyName" type="text" placeholder="Company Name"  {...register("CompanyName")}
+                <input className="CompanyName" type="text" placeholder="Company Name"  {...register("company_name")}
                        required/><br></br><br></br>
 
                 <button className="SignUp" type="submit">Sign Up</button>
