@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Login from './App.js';
 
 import Userdashboard from "./Userdashboard";
-import 'font-awesome/css/font-awesome.min.css';
+//import 'font-awesome/css/font-awesome.min.css';
 
 
 
