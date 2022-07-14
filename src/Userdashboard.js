@@ -1,5 +1,7 @@
 import Home from "./Home";
-import Signup from "./signup";
+import Navbar from "./Navbar";
+import './user_dashboard.css';
+import Ticket from "./Ticket";
 
 function Userdashboard() {
     let Component
@@ -7,12 +9,12 @@ function Userdashboard() {
         case "/" :
         Component=<Home />
             break;
-        // case "/tickets":
-        //     Component=<tickets />
-        //     break;
-        case "/chat":
-            Component=<Signup />
+        case "/ticket":
+            Component=<Ticket />
             break;
+        // case "/chat":
+        //     Component=<Ticket />
+        //     break;
         // case "/logout":
         //     Component=<logout />
         //     break;
@@ -20,7 +22,7 @@ function Userdashboard() {
 
     return(
         <>
-        <Home/>
+        <Navbar />
     {Component}
             </>
     )

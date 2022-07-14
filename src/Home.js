@@ -18,14 +18,10 @@ function Home() {
         <div className="user_dashboard" >
 
             <Helmet>
-                <title>SICS | Login</title>
+                <title>SICS | Home</title>
                 <link rel="icon" href="Logo.svg" type="image/svg"/>
             </Helmet>
-            <div className={"searchbar"}>
-                <input type="text" placeholder="           Search for Tickets"/>
-                <button className="searchbutton"></button>
 
-            </div>
             <div className="createticket_counter">
                 <h1>15</h1>
                 <h2>Tickets created</h2>
@@ -67,35 +63,7 @@ function Home() {
 
             </div>
 
-            <div className={"Navbar"} >
 
-                <img className="Logo_dashboard" src={dashboardlogo} id={dashboardlogo} width="150" height="50"/>
-                <div className="Tabs">
-                    <ul>
-                        <button >
-                            <FontAwesomeIcon className="home" icon={faHome}/><a href="/">Home</a>
-                        </button>
-                        <button  ><FontAwesomeIcon
-                            className="ticket" icon={faClipboardList}/><a href="/ticket">Tickets</a>
-                        </button>
-                        <button  ><FontAwesomeIcon
-                            className="chat" icon={faMessage}/><a href="/chat">Chat</a>
-                        </button>
-                        <button  ><FontAwesomeIcon
-                            className="logout" icon={faRightFromBracket}/><a href="/logout">Logout</a>
-                        </button>
-                    </ul>
-
-                </div>
-
-
-
-                <div className="robot">
-                    <img className="service" src={servicerobot} id={servicerobot} width="500" height="120"/>
-                    <button type="button" className="support">Contact Support</button>
-                </div>
-
-            </div>
 
         </div>
     )

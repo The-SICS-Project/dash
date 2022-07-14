@@ -4,7 +4,7 @@ import {Magic} from 'magic-sdk';
 import {useForm} from "react-hook-form";
 //import login from "./login";
 //import axios from "axios";
-//import './signup.css';
+import './signup.css';
 
 
 function Signup() {
