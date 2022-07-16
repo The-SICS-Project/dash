@@ -29,7 +29,7 @@ input{background: #F2EAC5;
     margin-left: 25%;
 
 }
-.SignUp{top: 84%;
+.SignUp{top: 85%;
     background-color: #000000;
     border: none;
     position: fixed;
@@ -89,7 +89,7 @@ label{
 }
 .Logo{
 
-   margin-left:70%;
+   margin-left:80%;
     position:relative;
     height: 20%;
     width: 40%;
