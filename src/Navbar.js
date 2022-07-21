@@ -59,7 +59,7 @@ return(
     <div className="Tabs">
         <ul>
             <button >
-                <FontAwesomeIcon className="home" icon={faHome}/><CustomLink to="*/dashboard/*">Home</CustomLink>
+                <FontAwesomeIcon className="home" icon={faHome}/><CustomLink to="/">Home</CustomLink>
             </button>
             <button  ><FontAwesomeIcon
                 className="ticket" icon={faClipboardList}/><CustomLink to="/dashboard/ticket">Tickets</CustomLink>
