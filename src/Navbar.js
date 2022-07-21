@@ -37,17 +37,17 @@ return(
 
         </div>
         <div className="createticket_counter">
-            <h1>15</h1>
-            <h2>Tickets created</h2>
+            <h6>15</h6>
+            <h6>Tickets created</h6>
 
         </div>
         <div className="openticket_counter">
-            <h1>8</h1>
-            <h2>Open Tickets</h2>
+            <h6>8</h6>
+            <h6>Open Tickets</h6>
         </div>
         <div className="solvedticket_counter">
-            <h1>4</h1>
-            <h2>Solved Tickets</h2>
+            <h6>4</h6>
+            <h6>Solved Tickets</h6>
 
         </div>
         <div className="blankspace">
