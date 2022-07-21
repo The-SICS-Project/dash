@@ -20,7 +20,7 @@ const Userdashboard=()=>{
     <div className="Container">
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/dashboard/ticket" element={<Ticket/>}/>
+            <Route path="/dashboard/ticket" element={<Signup/>}/>
             <Route path="dashboard/chat" element={<Chat/>}/>
         </Routes>
     </div>
