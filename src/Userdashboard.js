@@ -19,10 +19,9 @@ const Userdashboard=()=>{
         <Navbar />
     <div className="Container">
         <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/ticket" element={<Ticket/>}/>
-            <Route path="/chat" element={<Chat/>}/>
-            <Route path="/dashboard" element={<Userdashboard/>}/>
+            <Route path="/dashboard" element={<Home/>}/>
+            <Route path="/dashboard/ticket" element={<Ticket/>}/>
+            <Route path="/dashboard/chat" element={<Chat/>}/>
         </Routes>
     </div>
             </>
