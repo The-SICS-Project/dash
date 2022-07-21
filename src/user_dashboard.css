@@ -162,6 +162,7 @@ h4{
     position: absolute;
     left: 2%;
     bottom: 35%;
+    
 }
 
 
@@ -232,6 +233,7 @@ h6{
     padding-left: 23%;
     font-family: 'Inter', sans-serif;
     color: black;
+    padding-left: 26%;
 }
 h7{
    text-align: left;
@@ -240,6 +242,7 @@ h7{
     margin-top: -7%;
     color: #6D6D6D;
     font-size:large;
+    padding-left: 26%;
 }
 h8{text-align: left;
     color: #000000;
@@ -247,6 +250,7 @@ h8{text-align: left;
     font-size:x-large;
     margin-left: 5%;
     font-weight: bold;
+    padding-left: 26%;
 }
 .blankspace{
     width: 28%;
