@@ -59,13 +59,13 @@ return(
     <div className="Tabs">
         <ul>
             <button >
-                <FontAwesomeIcon className="home" icon={faHome}/><CustomLink to="/">Home</CustomLink>
+                <FontAwesomeIcon className="home" icon={faHome}/><CustomLink to="/dashboard/home">Home</CustomLink>
             </button>
             <button  ><FontAwesomeIcon
-                className="ticket" icon={faClipboardList}/><CustomLink to="/ticket">Tickets</CustomLink>
+                className="ticket" icon={faClipboardList}/><CustomLink to="/dashboard/ticket">Tickets</CustomLink>
             </button>
             <button  ><FontAwesomeIcon
-                className="chat" icon={faMessage}/><CustomLink to="/chat">Chat</CustomLink>
+                className="chat" icon={faMessage}/><CustomLink to="/dashboard/chat">Chat</CustomLink>
             </button>
             <button onClick={handleLogOut} ><FontAwesomeIcon
                 className="logout"  icon={faRightFromBracket}/>Logout
