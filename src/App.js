@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Login from "./Login";
 import Signup from "./signup";
-import Ticket from "./ticket";
+import Ticket from "./Ticket";
 import Userdashboard from "./Userdashboard";
 import React, { useState, useEffect } from 'react';
 import {UserContext} from "./userContext";
