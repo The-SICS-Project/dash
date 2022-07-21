@@ -42,12 +42,12 @@ return(
 
         </div>
         <div className="openticket_counter">
-            <h6>8</h6>
-            <h6>Open Tickets</h6>
+            <h7>8</h7>
+            <h7>Open Tickets</h7>
         </div>
         <div className="solvedticket_counter">
-            <h6>4</h6>
-            <h6>Solved Tickets</h6>
+            <h8>4</h8>
+            <h8>Solved Tickets</h8>
 
         </div>
         <div className="blankspace">
