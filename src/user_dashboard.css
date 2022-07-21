@@ -227,13 +227,13 @@ background-image: url("solvedticket.svg");
     box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
 
 }
-h1{
+h6{
     text-align: left;
     padding-left: 23%;
     font-family: 'Inter', sans-serif;
     color: black;
 }
-h2{
+h7{
    text-align: left;
     padding-left: 20%;
     font-family: 'Inter', sans-serif;
@@ -241,7 +241,7 @@ h2{
     color: #6D6D6D;
     font-size:large;
 }
-h3{text-align: left;
+h8{text-align: left;
     color: #000000;
     font-family: 'Inter', sans-serif;
     font-size:x-large;
