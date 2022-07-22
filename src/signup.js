@@ -72,16 +72,16 @@ function Signup(props) {
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <label className="heading1">Sign up to continue to</label><br/><br/><label
                     className="heading2"> SICS Dashboard</label><br/>
-                    <input className="FirstName" type="text" placeholder="FirstName" {...register("first_name")}
+                    <input className="FirstName" type="text" placeholder="First name" {...register("first_name")}
                            required/><br></br>
 
-                    <input className="LastName" type="text" placeholder="LastName"  {...register("last_name")}
+                    <input className="LastName" type="text" placeholder="Last name"  {...register("last_name")}
                            required/><br></br>
 
                     <input className="SignupEmail" type="email" placeholder="Email address"  {...register("email")}
                            required/><br></br>
 
-                    <input className="CompanyName" type="text" placeholder="Company Name"  {...register("company_name")}
+                    <input className="CompanyName" type="text" placeholder="Company name"  {...register("company_name")}
                            required/><br></br><br></br>
 
                     <button className="SignUp" type="submit">Sign Up</button>
