@@ -30,7 +30,7 @@
     font-family: 'Inter', sans-serif;
     font-size:14px;
     margin-top: 65px;
-    margin-left: 35%;
+    margin-left: 85%;
 
 }
 .login{ margin-top: 5px;
@@ -84,8 +84,8 @@ h1{  position: absolute;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 28px;
-    top:-25%;
-  left: 50%;
+    top:-30%;
+  left: 95%%;
 
 }
 
@@ -118,7 +118,7 @@ left:8%;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-weight: normal;
-   left:48%;
+   left:95%;
 }
 ::placeholder {
     color: black;
