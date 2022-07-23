@@ -31,7 +31,7 @@
     position: absolute;
     font-size:14px;
     top:35%;
-    left:13%;
+    left:30%;
 
 }
 .LastName{background: #F2EAC5;
@@ -47,7 +47,7 @@
     position: absolute;
     font-size:14px;
     top:43%;
-    left:13%;
+    left:30%;
 
 }
 .SignupEmail{background: #F2EAC5;
@@ -63,7 +63,7 @@
     position: absolute;
     font-size:14px;
     top:51%;
-    left:13%;
+    left:30%;
 
 }
 .CompanyName{background: #F2EAC5;
@@ -77,7 +77,7 @@
     text-align: center;
     font-family: 'Inter', sans-serif;
     top:59%;
-    left:13%;
+    left:30%;
     position:absolute;
     font-size:14px;
 
@@ -145,7 +145,7 @@ background-color: #F2EAC5;
     margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    margin-left: 6.5%;
+    margin-left: 15%;
 
 
 }
@@ -178,14 +178,14 @@ label{
     text-align: center;
     width: 100%;
     font-family: 'Inter', sans-serif;
-    left:-37%;
+    left:-32%;
 
 }
 .heading2{
 position: absolute;
     text-align: center;
     width: 100%;
-    left:-40% ;
+    left:-36% ;
     font-family: 'Inter', sans-serif;
 }
 
