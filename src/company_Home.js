@@ -58,9 +58,7 @@ if(res.status===200) {
                 <link rel="icon" href="Logo.svg" type="image/svg"/>
             </Helmet>
 
-            <div className="teammembers">
-                <h6>15</h6>
-                <h7>Teammembers</h7>
+            
 
             </div>
             <div className="Ticketview_window">
