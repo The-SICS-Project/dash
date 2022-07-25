@@ -76,7 +76,7 @@ function Login(props) {
     };
 
     return (
-
+         <html>
         <div className="logincontainer">
         <div className="designbox"> </div>
             <Helmet>
@@ -101,7 +101,7 @@ function Login(props) {
             </div>
 
         </div>
-
+        </html>
 
     )
 
