@@ -60,7 +60,7 @@ function Signup(props) {
 
                 const res= await fetch('https://sics-backend-ffyd6.ondigitalocean.app/account/segment', options)
 
-                if(await res.status===205)
+                if(res.status===205)
                 {const options = {
                     method: 'PATCH',
                     headers: {
