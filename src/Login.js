@@ -47,7 +47,7 @@ function Login(props) {
               };
 
              const res= await fetch('https://sics-backend-ffyd6.ondigitalocean.app/account/segment', options)
-              if(await res.status===205)
+              if(res.status===205)
               {
                   navigate('/companydashboard', {replace: true});
               }
