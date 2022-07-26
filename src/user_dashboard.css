@@ -1,0 +1,431 @@
+body{
+    background-color: #ffffff;
+}
+.Navbar{
+    margin-top: -1%;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: block;
+    width: 20%;
+    height: 100%;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
+}
+.Logo_dashboard{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.Tabs {
+       margin-top: 40px;
+    margin-right: 81px;
+  padding: 0;
+    width: 20%;
+
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+.Tabs button {
+    background-color: inherit;
+    font-size: medium;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 100%;
+    display: flex;
+
+}
+.Tabs a{
+    color: inherit;
+    text-decoration: none;
+}
+.Tabs button:active{
+    background-color: #FF4D4D;
+
+}
+
+.Tabs button:hover {
+    background-color: #FF4D4D;
+}
+
+
+.searchbar{
+    width: 50%;
+    margin-left: 20.50%;
+    height: 10%;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: inline-block;
+    margin-top: -1%;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
+
+}
+.searchbar input[type=text]{
+    float: left;
+    border: none;
+    height: 80%;
+    width: 100%;
+    margin-top: 8px;
+    background-color: transparent;
+    outline: none;
+    margin-right: 16px;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+}
+.createticket_counter{
+    width: 24%;
+    margin-left: 20.50%;
+    height: 15%;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: inline-block;
+    margin-top: 5%;
+    background-image: url("ticketscreated.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
+
+}
+.teammembers{
+    width: 24%;
+    margin-left: 20.50%;
+    height: 15%;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: inline-block;
+    margin-top: 5%;
+    background-image: url("ticketscreated.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
+}
+.searchbutton{
+    width: 6%;
+    height: 85%;
+position:relative;
+    float: left;
+    margin-top: -8%;
+    background-color: transparent;
+    border: none;
+    background: url(searchicon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.searchbar:current{
+    width: 6%;
+    height: 85%;
+    position:relative;
+    float: left;
+    margin-top: -8%;
+    background-color: transparent;
+    border: none;
+
+
+}
+.openticket_counter{
+    width: 24%;
+    margin-left: 46.50%;
+    height: 15%;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: inline-block;
+    margin-top: 5%;
+    background-image: url("openticket.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
+}
+
+.Ticketview_window{
+    width: 50%;
+    margin-left: 20.50%;
+    height:69%;
+    background-color: #FFFFFF;
+    position: fixed;
+    margin-top: 13.5%;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
+    overflow: scroll;
+
+}
+.Ticketview_window button{
+    height:70px;
+    font-weight: bold;
+    color: #000000;
+    background: rgba(255, 237, 237, 0.5);
+    position: relative;
+   font-size: medium;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 91%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    transition: 0.3s;
+    border-radius: 5%;
+    text-align: left;
+
+}
+.Ticketlist:hover {
+    background-color: #F3DBDBFF;
+    opacity: 100%
+}
+h4{
+    color: #000000;
+    opacity: 35%;
+    position: absolute;
+    left: 2%;
+    bottom: 35%;
+}
+
+
+.profile_window{
+    width: 28%;
+    margin-left: 71.50%;
+    height: 10%;
+    background-color: #FFFFFF;
+    position: fixed;
+    display:inline;
+    margin-top: -1%;
+
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
+}
+.new_ticket{
+    height:50%;
+    width: 45%;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    border-radius: 6px;
+  position: relative;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.new_ticket a{
+    height:50%;
+    width: 45%;
+    font-family: 'Inter', sans-serif;
+   color: #FFFFFF;
+
+    border-radius: 6px;
+    position: relative;
+    margin-top: 5%;
+   left: -2%;
+}
+.new_ticket:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.Notification{
+    height:50%;
+    width: 10%;
+    position: relative;
+   top: -70%;
+    left: 55%;
+    padding-bottom: 3.5%;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+
+}
+.account{
+    height:50%;
+    width: 10%;
+    position: relative;
+    top: -166.5%;
+    left: 70%;
+    padding-bottom: 3.5%;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+font-weight: bold;
+
+
+
+
+}
+.solvedticket_counter{
+    width: 28%;
+    margin-left: 71.50%;
+    height: 15%;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: inline-block;
+    margin-top: 5%;
+background-image: url("solvedticket.svg");
+    background-repeat: no-repeat;
+    background-position:left center;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
+
+}
+.blankspace{
+    font-family: 'Zilla Slab', serif;
+    padding-left: 1%;
+    display:block;
+}
+h20{
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    margin-left:30%
+}
+h6{
+    text-align: left;
+    top:-29%;
+    padding-left: 26%;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+   font-size: x-large;
+    color: #000000;
+
+}
+h7{
+   text-align: left;
+    padding-left: 20%;
+    font-family: 'Inter', sans-serif;
+    top: 70%;
+    position: absolute;
+    font-weight: bolder;
+    font-size: x-large;
+    color: #6D6D6D;
+
+}
+
+h3{text-align: left;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size:x-large;
+    margin-left: 5%;
+    font-weight: bold;
+}
+.blankspace{
+    width: 28%;
+    margin-left: 71.50%;
+    height:69%;
+    background-color: #FFFFFF;
+    position: fixed;
+    display: inline-block;
+    margin-top: 13.5%;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.07);
+}
+.service{
+    margin-top: 0%;
+
+    padding-left:25%;
+
+    width: 40%;
+    height: auto
+
+}
+.robot{
+    margin-top: 300px;
+margin-left: 8px;
+    background-color: #FFEDED;
+    width: 240px;
+    height: 300px;
+}
+
+.support {
+   left: 16%;
+    top: 91%;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: #9F2C2C;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+.support:hover{
+    background-color: rgba(159, 44, 44, 0.83);
+}
+ul{
+    width: 100%;
+list-style-type: none;
+    font-family:'Inter', sans-serif;
+}
+.home{
+    margin-right:20px
+}
+.ticket{
+    margin-right:20px
+}
+.chat{
+    margin-right:20px
+}
+.logout{
+    margin-right:20px
+}
+li a.active {
+    background-color: #FF4D4D;
+
+}
+.msgbox{
+    width: 100%;
+
+    height: 25%;
+}
+.box{
+    position: absolute;
+       width: 80%;
+    margin-top: -14%;
+    height: 23%;
+align-content: flex-end;
+    overflow: scroll;
+}
+.buttonlist{
+    position: absolute;
+    display: inline-flex;
+    top:92%;
+    height:7%;
+width:100%
+
+}
+.msgsend{
+    width:25%;
+    height:90%;
+    background-color: rgb(47 68 86 / 65%);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+
+
+}
+.Reject{
+    width:25%;
+    height:90%;
+    margin-right: 3%;
+    background-color: #9F2C2C;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+
+}
+.Resolved{
+    width:25%;
+    height:90%;
+    margin-right: 5%;
+padding-right: 3%;
+    background-color: #53dc31;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+h31{
+    position: absolute;
+    left:1%;
+    padding-top: 1%;
+    font-family: 'Inter', sans-serif;
+    color: #898989;
+}
+h32{
+    position: absolute;
+    left:28%;
+    padding-top: 1%;
+    font-family: 'Inter', sans-serif;
+    color: #898989;
+}
+
+
+
